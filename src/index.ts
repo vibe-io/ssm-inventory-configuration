@@ -1,5 +1,3 @@
-export class Hello {
-  public sayHello() {
-    return 'hello, world!';
-  }
-}
+export * from './inventory-association';
+export * from './inventory-configuration';
+export * from './inventory-targets';
