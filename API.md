@@ -989,7 +989,7 @@ const permissionEnforcementOptions: PermissionEnforcementOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#ssm-inventory-configuration.PermissionEnforcementOptions.property.remediation">remediation</a></code> | <code><a href="#ssm-inventory-configuration.PermissionRemediationOptions">PermissionRemediationOptions</a></code> | Settings related to how non-compliant resources (resources where the  configuration could prevent instances from reporting to Systems Manager) should be dealt with. |
+| <code><a href="#ssm-inventory-configuration.PermissionEnforcementOptions.property.remediation">remediation</a></code> | <code><a href="#ssm-inventory-configuration.PermissionRemediationOptions">PermissionRemediationOptions</a></code> | Settings related to how non-compliant resources (resources where the configuration could prevent instances from reporting to Systems Manager) should be dealt with. |
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly remediation: PermissionRemediationOptions;
 
 - *Type:* <a href="#ssm-inventory-configuration.PermissionRemediationOptions">PermissionRemediationOptions</a>
 
-Settings related to how non-compliant resources (resources where the  configuration could prevent instances from reporting to Systems Manager) should be dealt with.
+Settings related to how non-compliant resources (resources where the configuration could prevent instances from reporting to Systems Manager) should be dealt with.
 
 ---
 
@@ -1035,7 +1035,7 @@ const permissionEnforcementProps: PermissionEnforcementProps = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#ssm-inventory-configuration.PermissionEnforcementProps.property.remediation">remediation</a></code> | <code><a href="#ssm-inventory-configuration.PermissionRemediationOptions">PermissionRemediationOptions</a></code> | Settings related to how non-compliant resources (resources where the  configuration could prevent instances from reporting to Systems Manager) should be dealt with. |
+| <code><a href="#ssm-inventory-configuration.PermissionEnforcementProps.property.remediation">remediation</a></code> | <code><a href="#ssm-inventory-configuration.PermissionRemediationOptions">PermissionRemediationOptions</a></code> | Settings related to how non-compliant resources (resources where the configuration could prevent instances from reporting to Systems Manager) should be dealt with. |
 | <code><a href="#ssm-inventory-configuration.PermissionEnforcementProps.property.enabled">enabled</a></code> | <code>boolean</code> | Controls whether the resources needed for permission enforcement should be created. |
 
 ---
@@ -1048,7 +1048,7 @@ public readonly remediation: PermissionRemediationOptions;
 
 - *Type:* <a href="#ssm-inventory-configuration.PermissionRemediationOptions">PermissionRemediationOptions</a>
 
-Settings related to how non-compliant resources (resources where the  configuration could prevent instances from reporting to Systems Manager) should be dealt with.
+Settings related to how non-compliant resources (resources where the configuration could prevent instances from reporting to Systems Manager) should be dealt with.
 
 ---
 
